@@ -3,13 +3,12 @@
   They're active for 10-15 days only. You should replace them with the actual images before using the code in production.
 */
 :root {
-  
-  --image-0: url("https://fontawesome.com/icons/github?f=brands&s=solid");
-  --image-1: url("https://i.pinimg.com/736x/8a/40/83/8a4083249ae2ee0e1229c21e721af4ad.jpg");
-  --image-2: url("https://s3-alpha-sig.figma.com/img/09ec/dbe5/85b2ba857d83620b2b712c496b8ed60f?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YJFShHDq~913B4geA6Vy1w5aPlUexmIuvcaDwpc07fFyc2XrVW2olU-ZUCjNHco2Elxv98Gh6-xtk1aZM9YxeSWrL3D3r3LOrrqyWBSYwt01vnSc0P949ZhyV4m56sC2sFrpz771BkLH8MuqwTgQChXReswqSR8jPyWHFqrlScJr59hMvwtcwmWqXGa2v6zW2jSAUoY9ppaFkyboYPm5kKEBQXpHuUZkShsSDwdgnDB1szOL8Vdv8z6Ii7C0fJ4xnqhrJS5gtzQptv1lDFtbDDalOMJ4DTyze63k32S4qgYMaj-am8kqtLJ44~1bFffc--f69MgaPU6HOM9VtEnNZA__");
-  --image-3: url("https://s3-alpha-sig.figma.com/img/3f40/f191/ec07e943494b474aeb3932440ad7c651?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p7iaG42bHi77RBcC54lju30F1EaJhgsC1pPQUk6rPGV7jPQPd0KpGYEFO8BEj~Odea7j7VAfNP7jM2ct5sLTAB0bd2Ht2ayupTN5vMrYQcshXnFHrTCAxa8Rlb7sQizmcS-vondUjNH1IKektK5ayCgtBWHHW9d9oZmUzfauDHyOfDYiTbkqbnCBh0N4Mz2vt1kz8y0P4XyoQ673is8XQN52grhf99FhrtwkJ5lhMr-Z2hHrbXiwZquXWfF2t3o5tzXq62mBGkLizN4ck0V8pE3ZiOWHXp0RqvMq9LRg6pWAk21IGrj9RQX3RO406NXsfBoUv65pqT4dR3YjFayPMA__");
-  --image-4: url("https://s3-alpha-sig.figma.com/img/142d/6ceb/cc17e5dddf14dd01d949597aefc1137d?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vc1khJj6l4fIYPN4UlDyFrApAQIAuCnlb~w~j9aWZpLzLYCjophkHBH2oqLB55N9PwjbW4nTCx9v0fkD57sTAJHAQZh5H0gTzCW3uOC8VbtPjkf90GVMqZHVzrfjqBJH2gj4VD2WEA2-VXcjBA1rhIbMKoJal-7ZzYtasbcadHbofluSg5vMTYS0kL5IUK-XVQPHLyqnQyTJnQ8vLazPY08yEDjrARLBw3fZN1rBNcAOyUF7-ciBMO8sPJqXNeHAsmrBj106uY1kQq35SrsdD9rm7nQ644ic5mAneDQ~4aCHWqs35SFg0KWl7COouVYauhmUKczbFBNS05p0HYA0fA__");
-  --image-5: url("https://s3-alpha-sig.figma.com/img/22cc/b189/7342a775d35bc0db87dc8607d1135407?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V7tB1rm1-uWJ2KvjZpg5R3FPyDdKemCkMJWVxA1Gwvg0sHry6w9ATEHvb0f0XkeQsJ2pRFQsjtO4OQ2GWvNR3H62lwkS8gOClFszfYSjwoSKuc9NwshF9~C1LjhKi08Idvx-oS-nN2pbA7xOHB8gCyUg72F7TpgHqF1iodwt-sd4cUtEJIuaMt~NFA26xlI8uIjYLdMZiu2D6B7B8gGSYvm31YZKbK7-4sPVsGVBE1fUK70SCRKNqI2IfxIhh00gUFTPqeImu7dLrzS7GdYJhZJYAA2WDBxZydRYTzYX8hgwlSpQ9~Xpg8UVY0OcRkBIGw2QoYyUeOfEN060lGyztQ__");
+  --image-0: url("assets/moon.jpg");
+  --image-1: url("assets/proj1.png");
+  --image-2: url("assets/proj3.png");
+  --image-3: url("assets/proj2.png");
+  --image-4: url("");
+  --image-5: url("");
   --custom-width: min(1377px, 100vw);
   --design-width: 1377;
   --ratio: calc(var(--custom-width) / var(--design-width));
@@ -329,7 +328,7 @@ body {
 }
 .flutter-project-1-270355-0 {
   font-size: calc(19 * var(--ratio));
-  font-family: Ledger;
+  font-family: Inter;
   font-weight: 400;
 
   text-decoration: none;
@@ -352,7 +351,7 @@ body {
 }
 .a-web-project-1-458916-0 {
   font-size: calc(19 * var(--ratio));
-  font-family: Ledger;
+  font-family: Inter;
   font-weight: 400;
 
   text-decoration: none;
@@ -375,7 +374,7 @@ body {
 }
 .a-java-project--1-108192-0 {
   font-size: calc(19 * var(--ratio));
-  font-family: Ledger;
+  font-family: Inter;
   font-weight: 400;
 
   text-decoration: none;
@@ -460,8 +459,8 @@ body {
 .httpswwwlinkedi-1-26788 {
   width: 47.3%;
   height: 94.59%;
-  top: 5.41%;
-  left: 52.7%;
+  top: 0%;
+  left: 40.7%;
   opacity: 1;
   z-index: 3;
   transform: rotate(0deg);
@@ -478,6 +477,12 @@ body {
 
   line-height: calc(7 * var(--ratio));
   color: "#FFFFFF";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .component-1-1-133056-container {
